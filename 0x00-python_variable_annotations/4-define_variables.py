@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """Defines 4 variables with type annotations"""
 
 
