@@ -3,7 +3,7 @@
 Provides a function, zoom_array, which takes in a sequence and a zoom factor
 and returns a new sequence that is zoomed in by the given factor
 """
-from typing import List, Sequence, Tuple, Union
+from typing import List, Tuple
 
 
 def zoom_array(lst: Tuple, factor: int = 2) -> List:
