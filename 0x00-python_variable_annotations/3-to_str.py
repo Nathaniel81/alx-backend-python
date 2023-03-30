@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Provides a function for converting a floating-point number 
+Provides a function for converting a floating-point number
 to a string representation
 """
 
