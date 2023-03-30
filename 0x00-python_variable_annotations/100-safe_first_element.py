@@ -3,7 +3,7 @@
 from typing import Sequence, Union, Any
 
 
-def safe_first_element(lst: Sequence(Any)) -> Union[Any, None]:
+def safe_first_element(lst: Sequence[Any]) -> Union[Any, None]:
     """
     Returns the first element of an iterable if it exists,
     otherwise returns None.
