@@ -2,7 +2,8 @@
 """
 Contains a function to_kv that takes a string k and an int or float v
 as arguments and returns a tuple where the first element is k and the
-second element is the square of v."""
+second element is the square of v.
+"""
 from typing import Union, Tuple
 
 
