@@ -6,7 +6,7 @@ and returns a new sequence that is zoomed in by the given factor
 from typing import List, Sequence, Tuple, Union
 
 
-def zoom_array(lst: Sequence, factor: Union[int, float] = 2) -> List:
+def zoom_array(lst: Tuple, factor: int = 2) -> List:
     """Returns a new list containing the zoomed in values"""
     zoomed_in: List = [
         item for item in lst
