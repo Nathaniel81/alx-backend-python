@@ -1,12 +1,17 @@
 #!/usr/bin/env python3
-"""Doc"""
+"""
+0-async_generator module
+"""
 import asyncio
 import random
 from typing import Generator
 
 
 async def async_generator() -> Generator[float, None, None]:
-    '''Generates a sequence of 10 numbers.'''
+    """
+    a simple async generator tha returns 10 random numbers between 0 and 10
+    every second
+    """
     for _ in range(10):
         await asyncio.sleep(1)
-        yield random.random() * 10
+        yield random.uniform(0, 10)
